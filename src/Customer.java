@@ -41,6 +41,7 @@ class Customer {
         return result;
     }
 
+    // this method was already refactored in the first commit
     private double amountFor(Rental each) {
         double thisAmount = 0;
         switch (each.getMovie().getPriceCode()) {
